@@ -1,4 +1,3 @@
-import 'package:flimer/flimer.dart';
 import 'package:flutter/material.dart';
 import 'package:image_compression_flutter/image_compression_flutter.dart';
 
@@ -165,14 +164,14 @@ class _MainPageState extends State<MainPage> {
   }
 
   handleOpenGallery() async {
-    final xFile = await flimer.pickImage(source: ImageSource.gallery);
-
-    if (xFile != null) {
-      final image = await xFile.asImageFile;
-      setState(() {
-        this.image = image;
-      });
-    }
+    // final xFile = await flimer.pickImage(source: ImageSource.gallery);
+    //
+    // if (xFile != null) {
+    //   final image = await xFile.asImageFile;
+    //   setState(() {
+    //     this.image = image;
+    //   });
+    // }
   }
 
   handleCompressImage() async {
