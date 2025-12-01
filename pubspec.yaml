@@ -15,7 +15,10 @@ dependencies:
 
   cross_file: ^0.3.3+4
   flutter_image_compress: ^2.4.0
-  image_compression: ^1.0.5
+  image_compression: 
+    git: 
+      url: https://github.com/xujiaji/image_compression.git
+      ref: 15c81036
 
 dev_dependencies:
   flutter_test:
